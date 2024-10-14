@@ -55,6 +55,15 @@ echo '--theme="tokyonight_night"' >> "$(bat --config-dir)/config"
 
 ```
 
+## Apply tokyonight git theme
+
+```bash
+mkdir -p /tmp/tokyonight
+cd /tmp/tokyonight
+curl -O https://raw.githubusercontent.com/folke/tokyonight.nvim/main/extras/delta/tokyonight_moon.gitconfig
+cat /tmp/tokyonight/tokyonight_moon.gitconfig >> ~/.gitconfig
+```
+
 ## Apply delta theme
 
 ```bash
