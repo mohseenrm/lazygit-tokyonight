@@ -1,7 +1,7 @@
 git:
   paging:
     # colorArg: never
-    pager: delta --paging=never --syntax-theme='tokyonight_night'
+    pager: delta --paging=never --syntax-theme='tokyonight_moon'
     useConfig: false
 gui:
   theme:
