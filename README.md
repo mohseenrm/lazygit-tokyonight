@@ -13,7 +13,7 @@ Prerequisites:
 ## Apply theme
 
 ```bash
-$ cp tokyonight/moon.yaml ~/.config/lazygit/config.yml
+$ cp tokyonight/night.yaml ~/.config/lazygit/config.yml
 ```
 
 ## Config diff pager
@@ -47,7 +47,7 @@ Update `~/.gitconfig`
 ```bash
 mkdir -p "$(bat --config-dir)/themes"
 cd "$(bat --config-dir)/themes"
-# Replace _night in the lines below with _day, _moon, or _storm if needed.
+# Replace _night in the lines below with _day, _night, or _storm if needed.
 curl -O https://raw.githubusercontent.com/folke/tokyonight.nvim/main/extras/sublime/tokyonight_night.tmTheme
 bat cache --build
 bat --list-themes | grep tokyo # should output "tokyonight_night"
@@ -60,12 +60,12 @@ echo '--theme="tokyonight_night"' >> "$(bat --config-dir)/config"
 ```bash
 mkdir -p /tmp/tokyonight
 cd /tmp/tokyonight
-curl -O https://raw.githubusercontent.com/folke/tokyonight.nvim/main/extras/delta/tokyonight_moon.gitconfig
-cat /tmp/tokyonight/tokyonight_moon.gitconfig >> ~/.gitconfig
+curl -O https://raw.githubusercontent.com/folke/tokyonight.nvim/main/extras/delta/tokyonight_night.gitconfig
+cat /tmp/tokyonight/tokyonight_night.gitconfig >> ~/.gitconfig
 ```
 
 ## Apply delta theme
 
 ```bash
-cp tokyonight/delta/moon.yaml ~/.config/lazygit/config.yml
+cp tokyonight/delta/night.yaml ~/.config/lazygit/config.yml
 ```
