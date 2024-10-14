@@ -1,9 +1,13 @@
 git:
   paging:
-    pager: delta
-    pager: delta --dark --paging=never
-    pager: delta --paging=never --syntax-theme='tokyonight_moon'
+    # colorArg: never
+    pager: delta --paging=never --syntax-theme='tokyonight_night'
     useConfig: false
+gui:
+  theme:
+    activeBorderColor:
+      - "#4fd6be"
+      - bold
     inactiveBorderColor:
       - "#394b70"
     optionsTextColor:
