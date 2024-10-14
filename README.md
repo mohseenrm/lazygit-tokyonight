@@ -13,9 +13,9 @@ Tokyonight theme for LazyGit
 
 Prerequisites:
 
-- LazyGit
-- Delta (optional)
-- Bat (optional)
+- [LazyGit](https://github.com/jesseduffield/lazygit)
+- [Delta (optional)](https://github.com/dandavison/delta)
+- [Bat (optional)](https://github.com/sharkdp/bat)
 
 ## Apply theme
 
