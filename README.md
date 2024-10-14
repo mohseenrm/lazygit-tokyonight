@@ -2,6 +2,13 @@
 
 Tokyonight theme for LazyGit
 
+## Screenshots
+
+![alt](/assets/lazygit.png)
+![alt](/assets/tokyonight.png)
+![alt](/assets/help.png)
+![alt](/assets/menu.png)
+
 ## Installation
 
 Prerequisites:
