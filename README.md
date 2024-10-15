@@ -49,6 +49,7 @@ Update `~/.gitconfig`
   # delta detects terminal colors automatically; set one of these to disable auto-detection
   dark = true
   # light = true
+  side-by-side = true
 
 [merge]
   conflictstyle = diff3
