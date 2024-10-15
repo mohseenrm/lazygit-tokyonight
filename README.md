@@ -19,8 +19,16 @@ Prerequisites:
 
 ## Apply theme
 
+Linux
+
 ```bash
-$ cp tokyonight/night.yaml ~/.config/lazygit/config.yml
+cp tokyonight/night.yaml ~/.config/lazygit/config.yml
+```
+
+Mac OS
+
+```bash
+cp tokyonight/night.yaml ~/Library/Application\ Support/lazygit/config.yml
 ```
 
 ## Config diff pager
@@ -73,6 +81,14 @@ cat /tmp/tokyonight/tokyonight_night.gitconfig >> ~/.gitconfig
 
 ## Apply delta theme
 
+Linux
+
 ```bash
 cp tokyonight/delta/night.yaml ~/.config/lazygit/config.yml
+```
+
+Mac OS
+
+```bash
+cp tokyonight/delta/night.yaml ~/Library/Application\ Support/lazygit/config.yml
 ```
